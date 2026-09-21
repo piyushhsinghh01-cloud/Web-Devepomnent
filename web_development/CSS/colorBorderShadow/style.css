@@ -1,0 +1,49 @@
+body{
+    background-color: aqua;
+}
+.main{
+    background-color: rgb(216, 217, 217);
+   
+}
+
+#card{
+    background-color: cornsilk;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #000;
+}
+#card:hover{
+    background-color: red;
+    color: yellow;
+}
+#card:active{
+    background-color: red;
+    color: yellow;
+}
+
+
+#card p{
+    background-color: blue;
+    color: red;
+    border: 20px groove rgb(0, 0, 0);
+    height: 230px;
+    overflow: auto; 
+}
+#btn{
+    background-color: rgb(0, 255, 98);
+    border-color: green;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 1px gray;
+
+}
+#btn:hover  {
+    background-color: white;
+    color: green;
+
+}
+#btn:active{
+    background-color: green ;
+    columns: white;
+}
