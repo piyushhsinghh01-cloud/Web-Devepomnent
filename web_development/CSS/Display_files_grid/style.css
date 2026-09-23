@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#outer{
+    border: 1px solid black;
+    display: flex;
+   /* gap: 390px; */
+   justify-content: space-around;
+}
+.d{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    background-color: red;
+    color: azure;
+    font-size: xx-large;
+    font-weight: 900;
+    
+}
+#grid-outer{
+     border: 1px solid black;
+    display: grid;
+   /* gap: 390px; */
+   grid-template-columns: auto auto auto auto auto;
+
+   justify-content: center;
+   gap: 20px;
+   column-gap: 70px;
+
+
+}
+.gd{
+
+     width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: red;
+    color: azure;
+    font-size: xx-large;
+    font-weight: 900;
+
+}
+.personal-outer{
+    border: 1px solid #000;
+    display: flex;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+   
+}
