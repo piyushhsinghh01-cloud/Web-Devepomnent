@@ -45,6 +45,7 @@
     border: 1px solid #000;
     display: flex;
     grid-template-columns: auto auto auto auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    border: 1px solid black;
    
 }

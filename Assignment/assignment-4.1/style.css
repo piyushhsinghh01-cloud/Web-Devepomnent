@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1{
+  margin: 0px 0px 0px 800px;
+}
+.personal-outer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+.qualification-grid {
+    display: grid;
+
+    grid-template-columns:auto auto auto auto auto auto auto ;
+
+    gap: 8px;
+    align-items: center;
+}
+.language-grid {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 10px;
+    align-items: center;
+}
+.identification-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    align-items: center;
+}
+.a{
+  margin: 20px 0px 0px 600px;
+ 
+}
+.b{
+   margin: 0px 0px 0px 605px;
+}
