@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+BE+WAL+Guides&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading{
+    font-size: xx-large;
+    font-weight: 900;
+    font-family:"Oswald", sans-serif;;
+}
+
+.subheading{
+    font-size: x-large;
+    font-weight:700;
+    font-style: italic;
+    font-family: "Playwrite BE WAL Guides", cursive;
+}
+#description span {
+    font-weight:400;
+    color: green;
+    text-decoration: underline;
+}
+main{
+    margin-top: 20px;
+}
+#section1{
+    .pointer{
+    font-size: larger;
+    font-weight: 900;
+}
+ul{
+    margin-left: 20px;
+    list-style: "🔒 ";
+    padding: 10px;
+}
+
+}
+#section2 {
+  ol {
+    margin-left: 30px;
+    list-style: lower-greek;
+  }
+
+  li::first-letter {
+    font-size: xx-large;
+  }
+
+  li::firs ol li:first-child {
+    background-color: red;
+  }
+  ol li:last-child {
+    background-color: rgb(9, 255, 0);
+  }
+}
+#section3 {
+  ol {
+    margin-left: 30px;
+    list-style: lower-roman;
+    line-height: 50px;
+  }
+
+  ol li:nth-child(even) {
+    background-color: rgb(201, 205, 3);
+  }
+  ol li:nth-child(odd) {
+    background-color: rgb(244, 246, 166);
+  }
+}
+#section4 {
+  table {
+    border-collapse: collapse;
+  }
+
+  caption {
+    color: #0147f9;
+    font-size: larger;
+    font-weight: 800;
+    font-variant-caps: all-petite-caps;
+  }
+  td,
+  th {
+    border: 1px solid #000;
+    padding: 3px 6px;
+  }
+
+  thead {
+    background-color: #0147f9;
+    color: aliceblue;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #dbeff6;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #b0e5f8;
+  }
+}
+
+footer {
+  background-color: darkblue;
+  color: aliceblue;
+  padding: 5px;
+  text-align: center;
+}
+
+#lorem-paragraph {
+  line-height: 30px;
+  word-spacing: 20px;
+  letter-spacing: 10px;
+}
