@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#card{
+    border: 1px solid #000;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    width: 60px;
+    height: 130px;
+    margin-top: 300px;
+    margin-left: 700px;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+#card:hover{
+    transform: scale(1.5);
+    transform: translate(4s);
+}
+button{
+    border: 1px solid #000000;
+    background-color: #fff;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: red;
+}
+button:active{
+    background-color: red;
+    transform:translate(10px 10px);
+    transform: translate(2s);
+}
