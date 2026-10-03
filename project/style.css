@@ -1,0 +1,31 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: aqua;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 20px;
+}
+
+#furni{
+    margin-left: 200px;
+}
+#navigation-bar{
+    gap: 30px;
+}
+#shop{
+    justify-content: ;
+}
+
+
+
+
+
