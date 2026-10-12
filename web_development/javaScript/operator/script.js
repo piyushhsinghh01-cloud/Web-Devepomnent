@@ -72,3 +72,4 @@ do {
   console.log("We are learning JavaScript do-while loop", i + 1);
   i++;
 } while (i <= 5);
+ 
