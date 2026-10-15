@@ -22,8 +22,10 @@ body{
     gap: 30px;
 }
 #shop{
-    justify-content: ;
+    justify-content: 
+    justify-self unset;
 }
+
 
 
 
