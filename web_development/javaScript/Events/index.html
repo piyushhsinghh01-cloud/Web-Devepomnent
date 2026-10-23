@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+    <button onclick="ShowAlert()">Click me</button>
+     <button id="clickbutton">Click me 2</button>
+    <br>
+    <br>
+     
+        <h1>Explore RICR Courses</h1>
+
+
+    <div class="course"
+         onmouseover="showMessage(this)"
+         onmouseout="restoreMessage(this)"
+         onclick="selectCourse('Web Development')">
+        Web Development
+    </div>
+
+    <div class="course"
+         onmouseover="showMessage(this)"
+         onmouseout="restoreMessage(this)"
+         onclick="selectCourse('Python Programming')">
+        Python Programming
+    </div>
+
+    <div class="course"
+         onmouseover="showMessage(this)"
+         onmouseout="restoreMessage(this)"
+         onclick="selectCourse('Data Science')">
+        Data Science
+    </div>
+
+    <p id="message">Selected course: None</p>
+
+
+    <input type="text" name="fullname" id="fullname">
+    <button></button>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
